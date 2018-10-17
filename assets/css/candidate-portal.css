@@ -1,0 +1,957 @@
+/*================================== Candidate Portal page css ==========================*/
+/*.candidate-portal{
+    background:#fff;
+}*/
+.candidate-portal .site-width.home-bg{
+    background:#f5f5f5;
+}
+.bg-f5f5f5{
+    background:#f5f5f5;
+}
+.mob-show{
+    display: none;
+}
+.dis-block{
+    display: block !important;
+}
+
+/***** Header part start *****/
+.mob-nav{
+    padding-top: 0 !important;
+}
+.mob-nav .search-form .form-control{
+    background: none;
+}
+.header-container-candidate{
+    margin: 0 20px 0 28px;
+}
+.candidate-portal-logo {
+    float:left;
+	width:125px;
+	height:63px;
+	line-height:60px;
+	vertical-align:middle;
+	margin-top:6px;
+}
+.candidate-portal-logo img{
+	max-width:125px!important;
+	max-height:63px!important;
+}
+.candidate-header-right{
+    float: right;
+}
+.candidate-search-block{
+    float: left;
+    margin: 17px 25px 0 0;
+}
+.candidate-search-block .search-input{
+    float: left;
+    width: 148px;
+    padding: 6px;
+    background: #fff;
+    border: solid 1px #fff;
+    font-family: "DIN Bold";
+}
+.candidate-search-block .search-btn{
+    margin: 10px 0 0 0;
+}
+.cadidate-profile{
+    float: left;
+    padding: 0 3px 0 9px;
+}
+.cadidate-profile.active{
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.18);
+    position: relative;
+    z-index: 999;
+}
+.cadidate-profile.active .more-options{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.18);
+}
+.top-profile-pic{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 12px 0 0 0;
+    float: left;
+}
+.dropdown-arrow{
+    float: right;
+    font-size: 24px;
+    color: #777;
+    line-height: 20px;
+    margin: 28px 0 33px 5px;
+}
+.cadidate-profile .dropdown-profile{
+    top: 75px;
+    width: 170px;
+}
+
+.container935{
+    max-width: 935px;
+    margin: 0 auto;
+}
+/***** Header part end *****/
+
+/***** Banner part start *****/
+.banner-main{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    position: relative;
+    font-family:'DIN Bold';
+    color: #fff;
+}
+.banner-img{
+    opacity: 0.6;
+    border-radius: 5px;
+    box-shadow: 0 20px 27px 3px rgba(0, 0, 0, 0.5);
+    max-width: 1150px;
+    height: 550px;
+    background: url(../images/worklife-banner.jpg) no-repeat center center;
+}
+
+.banner-content{
+    max-width: 500px;
+    position: absolute;
+    top: 220px;
+    left: 131px;
+}
+.banner-content h2{
+    font-size: 45px;
+    color: #fff;
+    line-height: 40px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
+    margin: 0 0 13px 0;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
+    margin: 0 0 21px 0;
+}
+.banner-content .btn{
+    padding: 11px 29px 13px;
+    background: #7f0051;
+    border-color:  #7f0051;
+}
+
+.banner-signin{
+    width: 297px;
+    min-height: 200px;
+    padding: 22px 28px 15px;
+    position: absolute;
+    top: 108px;
+    right: -10px;
+    background: #6da4d8;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.22);
+}
+.banner-signin p{
+    max-width: 214px;
+	min-height:80px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+}
+.banner-signin .btn{
+    padding: 11px 20px 13px;
+    background: #4c6fb6;
+    border-color: #4c6fb6;
+	margin-bottom:7px;
+}
+.new-user{
+	font-family:'DIN Regular';
+}
+.banner-signin .link{
+	font-family:'DIN Regular';
+	color:#fff;
+	text-transform:capitalize;
+}
+.banner-signin .link:hover{
+	color:#fff;
+
+}
+
+
+.banner-drop-cv{
+    width: 297px;
+    min-height: 200px;
+    padding: 22px 28px 80px;
+    position: absolute;
+    top: 330px;
+    right: -10px;
+    background: #a8407f;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.22);
+}
+.banner-drop-cv p{
+    max-width: 214px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+}
+.banner-drop-cv .btn{
+    position: absolute;
+    bottom: 40px;
+    padding: 11px 20px 13px;
+    background: #810052;
+    border-color: #810052;
+}
+/***** Banner part end *****/
+
+/***** middle part start *****/
+.page-title{
+    font-size: 35px;
+    line-height: 40px;
+    color: #810052;
+    padding: 68px 0 17px 5px;
+    margin: 0;
+}
+.search-form{
+    padding-bottom: 63px;   
+}
+.form-title{
+    font-size: 18px;
+    line-height: 22px;
+    color: #810052;
+    margin: 31px 0 13px;
+    padding: 0 0 0 12px;
+    font-family:'DIN Regular';
+}
+.search-form .form-control{
+    height: 60px;
+    background: #e6e7e8;
+    font-size: 16px;
+    color: #000;
+    padding: 6px 25px;
+    letter-spacing: 0;
+    border: none;
+}
+.search-by-name-form {
+    position: relative;
+}
+.search-by-name-form .form-control{
+    margin-bottom: 10px;
+}
+.search-by-name-btn{
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: -33px;
+    bottom: 17px;
+}
+.search-by-preference-form{
+    position: relative;
+}
+.search-by-preference-btn{
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: -33px;
+    bottom: 27px;
+    height: 25px;
+    box-shadow: none;
+    color: #fff;
+}
+.search-by-preference-btn:hover{
+    background: none;
+}
+.search-by-preference-btn img{
+    display: block;
+}
+.search-by-preference-btn span{
+    display: none;
+}
+.search-form .dropdown-11 .btn.dropdown-toggle{
+    height: 60px;
+    background: #e6e7e8;
+    font-size: 16px;
+    color: #515151;
+    padding: 6px 18px;
+    letter-spacing: 0;
+}
+.search-form .dropdown-11 .bootstrap-select.btn-group .dropdown-toggle .caret{
+    font-size: 30px;
+    color: #777;
+    top: 13px;
+    right: 65px;
+}
+.search-form .dropdown-11 .btn-group > .btn:first-child{
+    padding-left: 25px;
+}
+.search-form .dropdown-menu > li > a{
+    padding-left: 25px;
+    font-size: 16px;
+    color: #515151;
+}
+.search-form .form-group{
+    margin-bottom: 0;
+}
+.search-form .row{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.search-form .dropdown-11{
+    padding-bottom: 10px;
+}
+.search-form .col-sm-4{
+    padding: 0 5px;
+}
+.search-by-department-form .col-sm-4{
+    padding-bottom: 10px;
+}
+
+.search-by-department {
+	width:100%;
+    background:#e6e7e8;
+    font-family:'DIN Regular';
+    font-size: 16px;
+	color:#777777;
+    padding: 6px 25px;
+	height: 60px;
+	text-align:left;
+    border: 1px solid #e6e7e8;
+	text-transform:inherit;
+	-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);			
+}
+
+/***** middle part start *****/
+
+/***** Footer part start *****/
+.site-footer{
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    margin: 0px 0 0 0;
+    background: #810052;
+    font-size: 12px;
+    color: #ffffff;
+}
+.footer-left{
+    float: left;
+    width: 60%;
+    padding: 27.5px 0;
+}
+.footer-left p{
+    float: left;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 0 7px 0 0;
+}
+.footer-links{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.footer-links li{
+	display:inline-block;
+	border-left:solid 1px #fff;
+	line-height: 10px;
+	margin-top:5px;
+}
+.footer-links li a{
+    color: #fff;
+    line-height: 10px;
+    margin: 0 5px;
+}
+.footer-links li a:hover{
+    color: #ddd;
+}
+.footer-right{
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding: 28.5px 0;
+}
+.footer-right a{
+    color: #fff;
+    margin: 0 21px;
+}
+.footer-right a:first-child{
+    margin-left: 0;
+}
+.footer-right a:last-child{
+    margin-right: 0;
+}
+.footer-right a img{
+    height: 15px;
+}
+/***** Footer part end *****/
+
+/***** inner page css start *****/
+.search-card-block.search-card-block-cnd{
+    margin:-10px -32px 6px -32px;
+}
+.card-applied-for-cdn .card-top{
+    height: 24px;   
+}
+.card-applied-for-cdn .card-top .material-icons{
+    width: 20px;
+}
+
+.card-applied-for-cdn .description-cell {
+    width: 75%;
+}
+.still-working{
+    width: 100%;
+}.heading-nowrap-grad{
+ 	white-space: nowrap;
+	overflow:hidden;
+	position:relative;
+}
+.heading-nowrap-grad:before{
+	position: absolute;
+    bottom:0px;
+    right: 140px;
+    width:20%;
+    height:17px;
+	content:'';
+	background: -webkit-linear-gradient(right, rgba(227, 227, 227, 0), rgba(227, 227, 227, 1) 90%);
+	background: -ms-linear-gradient(right, rgba(227, 227, 227, 0), rgba(227, 227, 227, 1) 90%);
+	background: linear-gradient(to right, rgba(227, 227, 227, 0), rgba(227, 227, 227, 1) 90%);
+}
+.candidate-portal .job-details-btn .btn-default{
+    background: #494949;
+}
+.candidate-portal .rounded-block{
+    width: 32px;
+    height: 32px;
+}
+.candidate-portal .tab-details{
+    box-shadow: none;
+}
+.display-table{
+    display: table;
+}
+.display-cell{
+    display: table-cell;
+}
+.video-resume{
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.video-resume .videocam_icon{
+    vertical-align: middle;
+}
+.mgn-top-15{
+    margin-top: 15px !important;
+}
+.mgn-btn-10{
+    margin-bottom: 10px !important;
+}
+.pad_btm_30{
+    padding-bottom: 30px !important;
+}
+.job-details-btn .btn-job-detail .btn-default{
+    margin-bottom: 0;
+	width:47%;
+}
+.job-details-btn .btn-job-detail .bootstrap-select .dropdown-toggle{
+	width:100%;
+}
+.search-block.search-large{
+    margin: 20px 0 17px 0;
+    background: #fff;
+}
+.search-block.search-large .form-control{
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.search-block.search-large .btn{
+    font-size: 30px;
+    height: 60px;
+}
+.candidate-filter .active .dropdown-button{
+    background-color: #fff;
+}
+
+.faq{
+    padding: 30px;
+}
+.faq h2{
+    line-height: 20px;
+}
+.faq h2 span{
+    font-family:'DIN Regular';
+}
+.faq p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+.faq-main .section-card {
+    -moz-column-width: 18em;
+    -webkit-column-width: 18em;
+    -moz-column-gap: 3.5em;
+    -webkit-column-gap:3.5em; 
+    margin: 0 !important;
+}
+.faq-main .card-block {
+    display: inline-block;
+    width:  100% !important; 
+    float: none !important; 
+    margin-bottom: 3.5em;
+}
+.faq-main .card-block-inner {
+    position:relative;
+    display: block;
+    margin: 0!important; 
+}
+.faq-main .search-block.search-large{
+    margin: 3.5em 0;
+}
+
+#progress-bar {
+  position: relative;
+  height: 15px;
+  width: 467px;
+  background: linear-gradient(to right, rgba(119,119,119,1) 99.9%, transparent 99.9%), radial-gradient(circle at 50% 50%, rgba(119,119,119,1) 16%, transparent 20%);
+  background-position: 0px 50% , 38px 50%;
+  background-size: 100% 1px, 65px 15px;
+  background-repeat: no-repeat, repeat-x;
+}
+#progress-now {
+  position: absolute;
+  height: 15px;
+  width: 20%;
+  background: linear-gradient(to right, rgba(238,62,128,1) 99.9%, transparent 99.9%), radial-gradient(circle at 50% 50%, rgba(238,62,128,1) 16%, transparent 20%);
+  background-position: 0px 50% , 38px 50%;
+  background-size: 100% 1px, 65px 15px;
+  background-repeat: no-repeat, repeat-x;
+  z-index: 1;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+
+.company-name{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: none;
+}
+
+/*================================== Edit My Profile css ==========================*/
+.section-card-edit-profile{
+	padding-top:5px;
+}
+.section-card-edit-profile .profile-img-outer{
+	float:left;
+	width:155px;
+	margin:0;
+}
+.profile-img-inner{
+	width: 120px;
+	position:relative;
+}
+.section-card-edit-profile .basic-information .profile-img{
+	margin:0;
+}
+.basic-information-details{
+	float:left;
+}
+.section-card-edit-profile .basic-information,
+.basic-information-details .form-group-profile .form-control,
+.basic-information-details .social-block-footer-lg{
+	text-align:left;
+}
+.basic-information-details .form-group-profile{
+	float:left;
+    margin-right: 10px;
+}
+.section-card-edit-profile .profile-img-outer .delete-icon{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	text-align:center;
+	line-height:25px;
+	background-color: rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.18);
+			box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.18);
+}
+.section-card-edit-profile .social-block-footer-lg{
+	padding-bottom:15px;
+}
+.section-card-edit-profile .margin-t14{
+	color: #a8407f;
+}
+.section-card-edit-profile .social-block-profile{
+	width:290px;
+}
+.section-card-edit-profile .input-arrow {
+	position: relative;
+	background-color:#f5f5f5;	
+}
+.section-card-edit-profile .search-block .btn{
+	background-color: #ededed;
+	border-radius:0 4px 4px 0;
+	color:#a8407f;
+}
+.section-card-edit-profile .input-arrow:after{
+	left:8%;
+}
+.section-card-edit-profile .input-arrow-top2 .input-arrow:after{
+	left:26%;
+}
+.section-card-edit-profile .input-arrow-top3 .input-arrow:after{
+	left:47%;
+}
+.section-card-edit-profile .input-arrow-top4 .input-arrow:after{
+	left:68%;
+}
+
+.filled-block{
+	width:50%;
+	float:left;
+	margin-bottom:10px;
+    min-height: 40px;
+}
+.filled-left-cell{	
+	width:160px;
+	float:left;
+	padding-top:12px;
+	margin-bottom:0px;
+}
+.filled-block .control-label,
+.filled-block-full .control-label{
+	font-family:'DIN Regular';
+}
+.filled-right-cell{
+	width:48%;
+	float:left;
+}
+.filled-right-cell-inner{
+	margin:0 -2.5px;
+}
+.filled-col-1,
+.filled-col-2{
+	width:33.3333%;
+	float:left;
+}
+.filled-col-2{
+	width:50%;
+}
+.filled-col-1 .filled-col-inner-1,
+.filled-col-2 .filled-col-inner-2{
+	margin:0 2.5px;
+}
+.filled-block-full{
+	width:100%;
+    margin-bottom: 10px;
+    float: left;
+}
+.filled-block-full .filled-right-cell{
+	width:74%
+}
+.section-card-edit-profile .dropdown-11 .btn{
+	font-family:'DIN Bold';
+}
+.section-card-edit-profile .add-new-btn-outer{
+	margin-bottom:0px;
+}
+.filled-block .checkbox.checkbox-inline{
+    padding-top: 10px;
+}
+.filled-block .dropdown-button{
+    color: #494949;
+}
+.table-data1{
+	width:100%;
+}
+.table-data1 .table-data-ul{
+	display:block;
+}
+.table-data1 .table-data-ul li{
+	display:block;
+	float:left;
+}
+.table-data1 .first-cell{
+	width:38%;
+}
+.table-data1 .last-child{
+	width:62%;
+	overflow:hidden;
+}
+.table-data1 .last-child .card-cell-left{
+	width:76%;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .block-boder-bottom{
+	border-bottom: 2px solid #e3e3e3;
+	margin:0px -10.5px 15px!important;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:3px;
+}
+.description-cell.width75-cd{
+	width: 75%;
+}
+
+
+/***** inner page css end *****/
+
+/*================================== Candidate Portal Responsive css ==========================*/
+@media screen and (max-width:1279px) {
+    .search-card-block.search-card-block-cnd{
+        margin:-10px -45px 6px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .header-container-candidate{
+        margin: 0;
+    }
+    .header-container-candidate .button-mobile-menu{
+        margin: 29px 0 0 0;
+    }
+    .mob-nav .nav-mobile .search-form{
+        margin-top: 44px;
+    }
+    .candidate-portal .bar-navigation li a{
+        padding: 16px 15px;
+    }
+    .banner-main{
+        padding: 34px 0 0 0;
+    }
+    .search-form{
+     padding-bottom: 34px;   
+    }
+    .banner-content{
+        left: 70px;
+    }
+    .banner-signin{
+        width: 49%;
+        position: relative;
+        top: 20px;
+        right: 0px;
+        float: left;
+    }
+    .banner-drop-cv{
+        width: 49%;
+        position: relative;
+        top: 20px;
+        right: 0px;
+        float: right;
+    }
+    .search-card-block.search-card-block-cnd{
+        margin:-15px -34px 6px;
+    }
+    .search-by-name-btn{
+        right: 15px;
+        bottom: 17px;
+    }
+    .search-by-preference-btn{
+        background: #6da4d8;
+        border: 0;
+        padding: 11px 40px 13px;
+        margin: 0;
+        position: relative;
+        right: 5px;
+        bottom: 0px;
+        float: right;
+        height: 40px;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+    .search-by-preference-btn:hover{
+        background: #6da4d8;
+    }
+    .search-by-preference-btn img{
+        display: none;
+    }
+    .search-by-preference-btn span{
+        display: block;
+    }
+    .search-form .dropdown-11 .bootstrap-select.btn-group .dropdown-toggle .caret{
+        right: 37px;
+    }
+    .candidate-filter .filter-by-block .filter-cell{
+        width: 100%;
+    }
+    .search-block.search-large{
+        margin: 10px 0 7px 0;
+        background: #f5f5f5;
+    }
+    .search-block.search-large .form-control{
+        height: 40px;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .search-block.search-large .btn{
+        font-size: 20px;
+        height: 40px;
+    }
+    .faq-main .section-card {
+        -moz-column-gap: 2em;
+        -webkit-column-gap:2em;
+    }
+    .faq-main .card-block {
+        margin-bottom: 2em;
+    }
+    .faq-main .search-block.search-large{
+        margin: 2rem 0;
+    }
+    .company-name{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.candidate-portal-logo {
+		height:50px;
+		line-height:50px;
+		margin-top:0px;
+	}
+	.candidate-portal-logo img{
+		max-width:125px!important;
+		max-height:50px!important;
+	}
+    .mob-hide{
+        display: none;
+    }
+    .mob-show{
+        display: block;
+    }
+    .header-container-candidate .button-mobile-menu{
+        margin: 20px 0 0 0;
+    }
+    .top-profile-pic {
+        height: 30px;
+        width: 30px;
+        margin: 13px 0 0;
+    }
+    .dropdown-arrow {
+        margin: 20px 0 16px 1px;
+    }
+    .mob-nav .nav-mobile .search-form{
+        margin-top: 25px;
+    }
+    .banner-main{
+        padding: 15px 0 0 0;
+    }
+    .banner-img {
+        height: 398px;
+    }
+    .banner-content{
+        left: 30px;
+        top: 150px;
+    }
+    .banner-content h2{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .banner-content p{
+        font-size: 
+    }
+    .banner-signin{
+        width: 48.5%;
+        padding: 18px 19px 55px;
+        top: 15px;
+    }
+    .banner-drop-cv{
+        width: 48.5%;
+        padding: 18px 19px 55px;
+        top: 15px;
+    }
+    .banner-signin .btn{
+        bottom: 15px;
+        padding: 11px 13px 13px;
+    }
+    .banner-drop-cv .btn{
+        bottom: 15px;
+        padding: 11px 10px 13px;
+    }
+    .page-title{
+        font-size: 22px;
+        line-height: 24px;
+        padding: 60px 0 10px 0px;
+    }
+    .search-card-block.search-card-block-cnd{
+        margin:-15px -15px 6px -15px;
+    }
+    .search-form{
+        padding-bottom: 35px;
+    }
+    .search-by-name-form .form-control{
+        margin-bottom:0px;
+    }
+    .form-title{
+        margin: 35px 0 10px;
+        padding: 0;
+    }
+    .search-form .dropdown-11{
+        padding-bottom: 5px;
+    }
+    .search-by-department-form .col-sm-4{
+        padding-bottom: 5px;
+    }
+    .footer-left{
+        width: 100%;
+        text-align: center;
+         padding: 30px 0 0;
+    }
+    .footer-left p{
+        width: 100%;
+        margin:0;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer-left a{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer-right{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0 38px;
+    }
+    .video-resume{
+        height: 250px;
+    }
+    .candidate-portal .tab-bar ul li{
+        width: auto;
+    }
+	.table-data1 .table-data-ul li{
+		width:100%;
+		border-right:0px;
+		padding-bottom:7px!important;
+		height:inherit!important;
+	}
+	.table-data1 .table-data-ul li.last-child{
+		border-top: 2px solid #e3e3e3;
+	}
+	.footer-links li:first-child{
+		border-left:0px;
+	}
+}
+
+@media screen and (max-width: 413px) {
+    .banner-signin{
+        top: 11px;
+    }
+    .banner-drop-cv{
+        top: 11px;
+    }
+}
